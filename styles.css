@@ -1,0 +1,9 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.felino {
+  height: auto;
+  width: 400px;
+  border-radius: 50%;
+}
