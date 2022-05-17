@@ -1,0 +1,188 @@
+#titulo {
+  color: tomato;
+}
+
+p.especial {
+  color: mediumseagreen;
+}
+
+p.texto {
+  color: slateblue;
+}
+
+div p {
+  color: aquamarine;
+}
+
+div h2,
+h3 {
+  color: brown;
+}
+
+/* * {
+  font-size: 24px;
+  color: black;
+} */
+
+/* esto es un comentario
+que tiene
+muuuuuuuchas lineas
+*/
+
+/*
+.color {
+  color: #ff0000;
+}
+
+.color {
+  color: rgb(0, 255, 255);
+}
+*/
+
+.color {
+  /* border: 5px red outset; */
+  /*
+    dotted
+    dashed
+    solid
+    goove--
+    ridge--
+    inset--
+    outset--
+    none
+    hidden
+    
+    -- 3d
+    */
+  border-style: solid;
+  border-color: coral;
+  border-radius: 5px;
+  border-width: 2rem;
+}
+
+#fondo {
+  background-color: rgba(255, 0, 0);
+  /* opacity: 0.3; */
+  color: white;
+  height: 200px;
+  background: #f00 url("marble.jpg") repeat-y center bottom / 100px 100px;
+}
+
+.margen {
+  background-color: chocolate;
+  margin: 15px;
+  padding: 30px 15px 5px;
+  border: solid 1px black;
+  height: 100px;
+  width: 50px;
+  overflow: scroll;
+  outline: 1px solid red;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  text-decoration: overline;
+  text-shadow: 3px 5px 5px blue;
+}
+
+a:link {
+  color: blueviolet;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: red;
+}
+
+ul {
+  background-color: cyan;
+  list-style-type: georgian;
+  /*padding-left: 0;*/
+  /* list-style-position: inside; */
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  border: solid 1px #eee;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+th {
+  background-color: #f00;
+  color: #eee;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+tr:hover {
+  background-color: chartreuse;
+  cursor: pointer;
+}
+
+span {
+  display: block;
+  /* display: none; */
+  /* visibility: hidden; */
+  max-width: 300px;
+  background-color: red;
+}
+
+.inline {
+  display: inline;
+}
+
+#position {
+  position: sticky;
+  left: 20px;
+  top: 25px;
+}
+
+.left {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  height: 200px;
+}
+
+.right {
+  float: right;
+}
+
+.column {
+  margin: 0;
+  padding: 10px 0;
+  width: 33.3%;
+}
+
+.inline-block {
+  display: inline-block;
+  height: 55px;
+  background-color: deeppink;
+}
+
+.center {
+  padding: 50px 0;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  background-color: dimgray;
+}
