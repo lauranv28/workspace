@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 15px;
+  background: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/*GRID FRAMEWORK*/
+.grid-container {
+  width: 100%;
+}
+
+.row {
+  display: table;
+  clear: both;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.row .box {
+  margin-left: 15px;
+}
+.row div:first-child > .box {
+  margin-left: 0;
+}
+
+/*DECORADOR PARA VER LAS GRILLAS*/
+.resaltador .row {
+  background-color: #ffc2c2;
+  text-align: center;
+}
+
+.resaltador .row .box {
+  background: #ffdcdc;
+}
+
+[class="col-"] {
+  float: left;
+  min-height: 1px;
+}
+
+.col-12 {
+  width: 100%;
+}
+.col-11 {
+  width: 91.66666667%;
+}
+.col-10 {
+  width: 83.33333333%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-8 {
+  width: 66.66666667%;
+}
+.col-7 {
+  width: 58.33333333%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-5 {
+  width: 41.66666667%;
+}
+.col-4 {
+  width: 33.33333333%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-2 {
+  width: 16.66666667%;
+}
+.col-1 {
+  width: 8.33333333%;
+}
+
+@media (max-width: 800px) {
+  .row {
+    margin: 0;
+  }
+  .row .box {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+  [class="col-"] {
+    display: block;
+    width: 100%;
+  }
+}
+
+/*HELPERS*/
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+/*STYLE*/
