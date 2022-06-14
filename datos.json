@@ -1,0 +1,35 @@
+{
+  "nombre": "Laura",
+  "apellido": "Vargas",
+  "lenguajes": ["Python", "HTML", "CSS", "JavaScript"],
+  "edad": 22,
+  "experiencia": [
+    {
+      "empresa": "Microsoft",
+      "antiguedad": 5
+    },
+    {
+      "empresa": "Google",
+      "antiguedad": 3
+    }
+  ],
+  "direccion": {
+    "calle": "Tutan",
+    "numero": 5689,
+    "colonia": "Kamon",
+    "pagoAgua": [
+      {
+        "id": 0,
+        "fecha": "abril 2017"
+      },
+      {
+        "id": 1,
+        "fecha": "abril 2018"
+      },
+      {
+        "id": 2,
+        "fecha": "abril 2019"
+      }
+    ]
+  }
+}
